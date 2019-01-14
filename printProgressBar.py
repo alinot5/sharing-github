@@ -1,16 +1,3 @@
-#Neural Network Example in Jupyter Notebook
-
-from __future__ import absolute_import, division, print_function
-
-import pathlib
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras import layers
-
 # Print iterations progress
 def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█'):
     """
